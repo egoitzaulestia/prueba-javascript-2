@@ -88,7 +88,7 @@ findDuplicatesV02(text);
 
 // V-0.1 _ Primera versión
 function printOddNumbers(num) {
-    const finalNumber = num + 100;
+    const finalNumber = num + 50;
 
     for (let i = 0; i < finalNumber; i++) {
         if (i % 2 !== 0) {
@@ -97,12 +97,12 @@ function printOddNumbers(num) {
     }
 }
 
-printOddNumbers(0)
+printOddNumbers(5)
 
 
 // V-0.2 _ Segunda versión
 function printOddNumbersV02() {
-    const inputNumber = Number(prompt("Introduce a number: ")) + 100;
+    const inputNumber = Number(prompt("Introduce a number: ")) + 50;
 
     for (let i = 0; i < inputNumber; i++) {
         if (i % 2 !== 0) {
